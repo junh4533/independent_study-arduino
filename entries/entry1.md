@@ -83,7 +83,7 @@ It is necessary to have a resistor to reduce the current so that the LED won't p
 
 ## Takeaways
 
-#### 1. Learn how to walk before you run
+### 1. Learn how to walk before you run
 The biggest takeaway for this first entry is probably the fact that you have to learn how to walk before you run. 
 When I first got my arduino kit, I jumped straight into building. I had something like this. 
 
@@ -91,11 +91,11 @@ When I first got my arduino kit, I jumped straight into building. I had somethin
 
 It didn't work the way I expected it to, which was no surprise as I had no knowledge of how a circuit works. 
 
-#### 2. Ask questions. Form a hypothesis. Test!
+### 2. Ask questions. Form a hypothesis. Test!
 
 Learning doesn't end with finding the answer. In fact, it never ends. You can never ask too many questions. 
 When I completed my first LED circuit, I was proud of myself. 
-But then I began wondering what would happoens if I switched the order of the LED? 
+But then I began wondering what would happens if I switched the order of the LED? 
 What would happen if I plugged this somewhere else?
 By asking myself those questions, tinkering, and goolging, I learned 2 things. 
 

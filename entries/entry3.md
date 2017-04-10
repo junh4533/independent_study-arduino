@@ -55,11 +55,11 @@ which is more efficient than 4-bit. For general purpose, 4-bit mode is sufficien
 
 ** Pins 8-14 are data pins **
 
-1. Ground for power
-2. 5v for power
-3. Display contrast control (regulated through voltage) **
+1. Ground: power
+2. 5v: power
+3. Vo: display contrast control (regulated through voltage) **
 4. Register select: controls where the data is being sent to (connect to PWM pin 13)
-5. Read/write: (connect to ground)
+5. Read/write: selects whether to send or retrieve data from the LCD (connect to ground)
 6. Enable: controls where in the LCD to write data to (connect to PWM pin 12)
 7. Only for 8-bit mode
 8. Only for 8-bit mode
@@ -69,8 +69,8 @@ which is more efficient than 4-bit. For general purpose, 4-bit mode is sufficien
 12. Connect to PWM pin 10
 13. Connect to PWM pin 9
 14. Connect to PWM pin 8
-15. 5v for backlighting
-16. Ground for backlighting
+15. 5v: backlighting
+16. Ground: backlighting
 
 ** This pin is usually connected to a potentiometer for voltage regulation.
 The higher the voltage, the higher the contrast. 

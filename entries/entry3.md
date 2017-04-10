@@ -27,20 +27,20 @@ Optional parts:
 
 *1x Transceivers (per Arduino board) are necessary for wireless capability
 
-#### Servo motor
+### Servo motor
 A wheel will be attached to the servo motor. When the motor turns, 
 the wheel will turn the lock 45 degrees (clockwise to lock, counterclockwise to open). 
 
-#### Power adapter
+### Power adapter
 Since the arduino won't be connected to the computer via USB once it is installed on the door,
 it will require another power source. A recommended power input for the Arduino Uno is 9v 1A.
 
-#### Hall sensor
+### Hall sensor
 This will be placed on the door. On the wall adjacent to the door, there will be a piece of magnet. 
 When the door closes, the magnet will be in range for the hall sensor to detect. 
 This will notify the software that the door has been closed and the lock switch should be turned. 
 
-#### Arduino board(s)
+### Arduino board(s)
 The original plan was to attach the arduino board and the rfid sensor to the back of my door.
 When I place the rfid card on my door, the sensor will detect it and activate the motor.
 In my previous entry, I mentioned that the door lock will have to be wireless. 
@@ -48,7 +48,7 @@ I recently discovered that I can route cables through the hole that holds my loc
 For the purpose of making the rfid lock, it is no longer necessary to have wireless features. 
 Somewhere along the line, there might be a use for wireless capability.
 
-#### Liquid crystal display (LCD) screen
+### Liquid crystal display (LCD) screen
 There are 16 pins in total and 8 of them are data pins. The pins D4 to D7 are only necessary for 8-bit mode, 
 which is more efficient than 4-bit. For general purpose, 4-bit mode is sufficient. 
 <img src="../images/lcd.png"/>
@@ -75,9 +75,9 @@ which is more efficient than 4-bit. For general purpose, 4-bit mode is sufficien
 ** This pin is usually connected to a potentiometer for voltage regulation.
 The higher the voltage, the higher the contrast. 
 
-#### Coding for the LCD
+### Coding for the LCD
 
-##### Initialization
+#### Initialization
 First you must include the library with this line of code: `#include <LiquidCrystal.h>`
 <br/>
 <br/>
@@ -95,7 +95,7 @@ For example, if the pins 4 to 9 from the arduino board are used, then the code h
 <br/>
 Inside `void setup()`, define the size of the LCD using `lcd.begin(length, width)`.
 
-##### Printing the message
+#### Printing the message
 
 The LCD is organized in a grid by using rows and columns.
 Similar to arrays, both the rows and columns starts counting at 0.

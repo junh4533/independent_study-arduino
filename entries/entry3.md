@@ -53,7 +53,7 @@ There are 16 pins in total and 8 of them are data pins. The pins D4 to D7 are on
 which is more efficient than 4-bit. For general purpose, 4-bit mode is sufficient. 
 <img src="../images/lcd.png"/>
 
-** Pins 8-14 are data pins **
+**Pins 8-14 are data pins**
 
 1. Ground: power
 2. 5v: power
@@ -72,8 +72,8 @@ which is more efficient than 4-bit. For general purpose, 4-bit mode is sufficien
 15. 5v: backlighting
 16. Ground: backlighting
 
-** This pin is usually connected to a potentiometer for voltage regulation.
-The higher the voltage, the higher the contrast. 
+** **This pin is usually connected to a potentiometer for voltage regulation. The higher the voltage, the higher the contrast.**
+
 
 ### Coding for the LCD
 

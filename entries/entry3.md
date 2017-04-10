@@ -112,8 +112,8 @@ Below is a list of the stripes that **follow the gold stripe on each resistor**.
 
 1. 200 ohm: Dark red
 2. 1k ohm: Black
-3. 10k: Orange
-4. 1m: Green
+3. 10k ohm: Orange
+4. 1m ohm: Green
 
 ## Takeaway
 

@@ -21,7 +21,9 @@ It uses a 3 pin connection. The first 2 pins are 5v and ground, while the last p
 When a magnet is near the sensor, it interrupts the current flowing through the switch and 
 the function `digitalRead(hall_sensor_pin)` will read `LOW` or `0`. 
 While I was experimenting with the sensor, I discovered that the sensor is actually polarized. 
+
 <img src="../images/hall_sensor.jpg"/>
+
 With that being said, the sensor will not work properly unless opposite polarities face each other.
 
 ## Mifare rfid module

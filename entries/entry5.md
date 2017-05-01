@@ -190,7 +190,7 @@ to the 2nd option. As for the following week, I will have to complete the the tr
 #### Don't jump to conclusions
 Troubleshooting can often be frustrating and will bring us to misleading conclusions. When first started with the motion sensor,
 I thought that the sensor was defective as it gave me random return values. I searched up guides online and tried their examples, 
-but none of them worked. Upon inspecting the sensor for physical damage, I discovered the potentiometers built into the board. 
+but none of them worked. Upon inspecting the sensor for physical damage, I discovered the orange potentiometers built into the board. 
 I quickly searched up the purpose of the pots and realized that it was to adjust the sensitivity and timing of the sensor. 
 After adjusting the sensitivity to medium and setting the timing to minimum, the sensor worked as I intended.  
 

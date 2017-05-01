@@ -6,3 +6,4 @@
 + [Entry 2: Experimenting with the hardware and software](entries/entry2.md)
 + [Entry 3: Planning my project](entries/entry3.md)
 + [Entry 4: Starting my project](entries/entry4.md)
++ [Entry 5: Finishing up with the rfid door lock](entries/entry5.md)

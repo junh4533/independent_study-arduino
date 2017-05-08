@@ -179,7 +179,12 @@ void loop() {
 
 ## Takeaway
 
-
+#### Focus on what needs to be done
+When I first got my TFT display, I spent almost 6 hours playing around with it. 
+In the process, I did explore and learn about a lot of the features that the TFT has to offer.
+For instance, I learned how to make a paint canvas. I also used some of my prior knowledge on processing to draw a picture. 
+For my project, however, it was irrelevant. Time is precious and I could've spent that time working on the wifi module. 
+The takeaway is to finish one thing before working on another. 
 
 ## Sources
 http://www.whatimade.today/esp8266-easiest-way-to-program-so-far/

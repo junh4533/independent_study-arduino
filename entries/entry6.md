@@ -120,7 +120,7 @@ void setup(){
 ```
 
 #### Server (transmitter)
-```
+```cpp
 void setup(){
   door_radio.openWritingPipe(addresses[0]);
 }
@@ -136,7 +136,7 @@ void loop(){
 ```
 
 #### Client (receiver)
-```
+```cpp
 void setup(){
   light_radio.startListening(); //begin receiving data  
 }

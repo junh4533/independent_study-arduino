@@ -1,5 +1,11 @@
 # Entry 6: Lighting control
 
+The focus of this entry should've been the NRF24L01+ transceiver, 
+but time is running low and so I had to squeeze in the TFT display as well. 
+Anyways, the goal of this week is to receive a signal from the door lock when it is opened, and will turn on the lights
+when it is night time. I still need to connect to the wifi to determine the time, but that will be in my next entry. 
+For now, I won't need the standard servo since I could use the micro servo, which has identical code as its sibling.
+
 ## ILI9341 240 x 320 2.8 inch TFT (thin-film-transistor) LCD (liquid crystal display)
 At first look, I was surprised by the quality of the display. Even at 240x320 resolution, 
 the screen doesn't look pixelated at all. Also, the TFT LCD supports full rgb functionality, 

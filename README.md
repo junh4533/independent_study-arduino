@@ -7,3 +7,6 @@
 + [Entry 3: Planning my project](entries/entry3.md)
 + [Entry 4: Starting my project](entries/entry4.md)
 + [Entry 5: Finishing up with the rfid door lock](entries/entry5.md)
++ [Entry 6: Lighting control](entries/entry5.md)
+<!--+ [Entry 7: Finishing up with the rfid door lock](entries/entry5.md)-->
+<!--+ [Entry 8: Finishing up with the rfid door lock](entries/entry5.md)-->

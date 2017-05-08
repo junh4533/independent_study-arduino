@@ -1,1 +1,1 @@
-Entry 7: Weather notification
+Entry 8: Finishing touches

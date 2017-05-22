@@ -9,4 +9,4 @@
 + [Entry 5: Finishing up with the rfid door lock](entries/entry5.md)
 + [Entry 6: Lighting control](entries/entry6.md)
 + [Entry 7: Connecting to the wifi](entries/entry7.md)
-<!--+ [Entry 8: Finishing touches](entries/entry8.md)-->  
++ [Entry 8: Finishing touches](entries/entry8.md)

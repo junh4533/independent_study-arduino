@@ -1,10 +1,10 @@
 # Entry 8: Finishing touches
 
 After connecting to the wifi, I need send a GET request to yahoo weather to retrieve the weather. 
-Directly sending a request would return a XML file, which contains a lot of unnecessary data. 
+Directly sending a request through an api would return a XML file, which contains a lot of unnecessary data. 
 
-## Yahoo query language (YQL)
-The YQL makes grabbing information from yahoo apis a lot easier and efficient. The usage is quite straightforward.
+## Yahoo query language (YQL) and thingspeak
+The YQL makes grabbing information from yahoo apis a lot easier and efficient. Thingspeak helps to filter out most of the unnecessary data. It also allows tracking of GET requests made. 
 
 #### Steps
 1. Create a yahoo account and register for api key
@@ -13,6 +13,13 @@ The YQL makes grabbing information from yahoo apis a lot easier and efficient. T
 4. Copy the YQL rest link at the bottom of the page. My link looks like this: 
 https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%3D2502265&diagnostics=true
 5. Test it by going to the link on a web browser. 
+6. Go to thingspeak.com and create an app.
+7. Paste the YQL rest link into the URL section.
+8. A GET request link should be generated. Follow the link and a similar result should be produced. 
+Instead of a XML file, it should return something like this:
+
+<img src="../images/yql.png" >
+
 
 Then, it is time to connect to the link on the esp8266. 
 ```cpp
@@ -43,7 +50,7 @@ RFID door lock from the outside: https://vimeo.com/218405945
 
 RFID door lock from the inside: https://vimeo.com/218405958
 
-RFID door lock + light switch https://vimeo.com/218408005 
+RFID door lock + light switch: https://vimeo.com/218408005 
 
 ## Takeaway 
 

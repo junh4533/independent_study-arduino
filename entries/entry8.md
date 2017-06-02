@@ -20,7 +20,6 @@ Instead of a XML file, it should return something like this:
 
 <img src="../images/yql.png" >
 
-
 Then, it is time to connect to the link on the esp8266. 
 ```cpp
 AT+CIPMODE=0 
@@ -35,9 +34,7 @@ Everything works fine until the GET request. The connection was successfully est
 the connection is not authorized. The request works perfectly fine on my PC's browser, so I suspect there might be a problem with my commands.
 
 ## Putting everything together
-Time is running low and I decided to wrap up everything that I have so far. When an authorized rfid card is presented, the door will unlock
-and will notify the other arduino that the door has been unlocked. The TFT display will update the status and also check if it is dark. 
-If so, the lights will turn on. Once the door is closed, it will automatically lock itself because it will detect the magnet. 
+Time is running low and I decided to wrap up everything that I have so far. When an authorized rfid card is presented, the door will unlock and will notify the other arduino that the door has been unlocked. The TFT display will update the status and also check if it is dark. If so, the lights will turn on. Once the door is closed, it will automatically lock itself because it will detect the magnet. 
 
 In addition, I created a button on the TFT that allows me to turn the lights on and off. There is also a button on the door lock, 
 which opens the door.

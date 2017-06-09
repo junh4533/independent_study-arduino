@@ -43,11 +43,13 @@ which opens the door.
 
 <img src="../images/rfid_and_light_switch.jpg" >
 
-RFID door lock from the outside: https://vimeo.com/218405945
+**RFID door lock from the outside: https://vimeo.com/218405945**
 
-RFID door lock from the inside: https://vimeo.com/218405958
+**RFID door lock from the inside: https://vimeo.com/218405958**
 
-RFID door lock + light switch: https://vimeo.com/218408005 
+**RFID door lock + light switch: https://vimeo.com/218408005**
+
+**Link to my project and presentation: https://drive.google.com/open?id=0B6_RV25UM32OczNCSVNWSVNRam8**
 
 ## Takeaway 
 

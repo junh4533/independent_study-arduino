@@ -1,5 +1,7 @@
 # Arduino Independent Study
 
+#For my final indepedent project in the software engineering program (SEP), I decided to create a smart home system using Arduino. This project requires combined knowledge in circuitry, hardware, and C++. I am excited to start fresh and learn these topics on my own!
+
 ## Table of contents
 
 + [Entry 1: Understanding basics of a circuit](entries/entry1.md)
